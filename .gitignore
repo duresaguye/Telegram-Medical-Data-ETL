@@ -1,0 +1,6 @@
+venv
+.env
+.history
+scraping_session.session
+scraping.log
+scraped_data.csv
