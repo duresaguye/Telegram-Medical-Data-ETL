@@ -1,7 +1,7 @@
 # 🚀 Telegram Medical Data ETL  
 
 ## 📌 Project Overview  
-This project is part of **10 Academy's Artificial Intelligence Mastery Week 7 Challenge** and focuses on **building a data warehouse** for Ethiopian medical businesses by scraping data from **Telegram channels**.  
+This project is  focuses on **building a data warehouse** for Ethiopian medical businesses by scraping data from **Telegram channels**.  
 
 ### 🎯 **Key Objectives**  
 - Develop a **data scraping and collection pipeline** for Telegram channels.  
