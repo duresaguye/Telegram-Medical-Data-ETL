@@ -1,0 +1,7 @@
+2025-01-31 20:16:07,159 - ERROR - ❌ Error loading CSV file: [Errno 2] No such file or directory: 'merged_data.csv'
+2025-01-31 20:16:39,568 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-01-31 20:16:39,593 - INFO - ✅ Duplicates removed from dataset.
+2025-01-31 20:16:39,608 - INFO - ✅ Date column formatted to datetime.
+2025-01-31 20:16:39,612 - INFO - ✅ Missing values filled.
+2025-01-31 20:16:39,646 - INFO - ✅ Data cleaning completed successfully.
+2025-01-31 20:16:39,673 - INFO - ✅ Cleaned data saved successfully to 'cleaned_data.csv'.

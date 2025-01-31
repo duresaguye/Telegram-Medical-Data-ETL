@@ -4,3 +4,7 @@ venv
 scraping_session.session
 scraping.log
 scraped_data.csv
+channel_data
+merged_data.csv
+
+cleaned_data.csv
