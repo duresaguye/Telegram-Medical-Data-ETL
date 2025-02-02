@@ -1,0 +1,110 @@
+[0m19:42:34.240468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71222a341820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x712228fc7fb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x712229b8a3f0>]}
+
+
+============================== 19:42:34.252994 | 0f851185-242e-4ab5-8ede-8245e77b6d67 ==============================
+[0m19:42:34.252994 [info ] [MainThread]: Running with dbt=1.9.2
+[0m19:42:34.255166 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dura/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init Medical_data', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:42:34.302005 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'PosixPath'.. Dictionary: {'dir': PosixPath('/home/dura/.dbt')}
+[0m19:42:34.304481 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m19:42:34.313732 [debug] [MainThread]: Starter project path: /home/dura/Codes/ethiopian-medical-data-warehouse/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m19:42:34.339277 [info ] [MainThread]: 
+Your new dbt project "Medical_data" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:42:34.343039 [info ] [MainThread]: Setting up your profile.
+[0m19:46:41.922206 [info ] [MainThread]: Profile Medical_data written to /home/dura/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:46:41.927339 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 247.96819, "process_in_blocks": "46776", "process_kernel_time": 0.846427, "process_mem_max_rss": "94052", "process_out_blocks": "80", "process_user_time": 6.07745}
+[0m19:46:41.931350 [debug] [MainThread]: Command `dbt init` succeeded at 19:46:41.929750 after 247.97 seconds
+[0m19:46:41.934623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71222a341820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7122292bf590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x712229058fb0>]}
+[0m19:46:41.937709 [debug] [MainThread]: Flushing usage events
+[0m19:46:43.195088 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:46:56.826698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76457e394b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76457e8814c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76457e25fe60>]}
+
+
+============================== 19:46:56.835964 | dcbb6817-7479-4d3e-88a2-7389fc087130 ==============================
+[0m19:46:56.835964 [info ] [MainThread]: Running with dbt=1.9.2
+[0m19:46:56.838061 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/dura/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:46:56.867094 [info ] [MainThread]: dbt version: 1.9.2
+[0m19:46:56.868571 [info ] [MainThread]: python version: 3.12.7
+[0m19:46:56.870389 [info ] [MainThread]: python path: /home/dura/Codes/ethiopian-medical-data-warehouse/venv/bin/python3
+[0m19:46:56.873302 [info ] [MainThread]: os info: Linux-6.11.0-14-generic-x86_64-with-glibc2.40
+[0m19:46:57.142184 [info ] [MainThread]: Using profiles dir at /home/dura/.dbt
+[0m19:46:57.144748 [info ] [MainThread]: Using profiles.yml file at /home/dura/.dbt/profiles.yml
+[0m19:46:57.147377 [info ] [MainThread]: Using dbt_project.yml file at /home/dura/Codes/ethiopian-medical-data-warehouse/dbt_project.yml
+[0m19:46:57.153451 [info ] [MainThread]: adapter type: postgres
+[0m19:46:57.159268 [info ] [MainThread]: adapter version: 1.9.0
+[0m19:46:57.163850 [info ] [MainThread]: Configuration:
+[0m19:46:57.166530 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:46:57.169175 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:46:57.171743 [info ] [MainThread]: Required dependencies:
+[0m19:46:57.174506 [debug] [MainThread]: Executing "git --help"
+[0m19:46:57.184633 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:46:57.188180 [debug] [MainThread]: STDERR: "b''"
+[0m19:46:57.190512 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:46:57.192991 [info ] [MainThread]: Connection:
+[0m19:46:57.195322 [info ] [MainThread]:   host: localhost
+[0m19:46:57.197569 [info ] [MainThread]:   port: 5432
+[0m19:46:57.199907 [info ] [MainThread]:   user: postgres
+[0m19:46:57.202111 [info ] [MainThread]:   database: Telegram-Medical-Data
+[0m19:46:57.204474 [info ] [MainThread]:   schema: public
+[0m19:46:57.206797 [info ] [MainThread]:   connect_timeout: 10
+[0m19:46:57.209176 [info ] [MainThread]:   role: None
+[0m19:46:57.211412 [info ] [MainThread]:   search_path: None
+[0m19:46:57.213948 [info ] [MainThread]:   keepalives_idle: 0
+[0m19:46:57.216279 [info ] [MainThread]:   sslmode: None
+[0m19:46:57.218475 [info ] [MainThread]:   sslcert: None
+[0m19:46:57.221007 [info ] [MainThread]:   sslkey: None
+[0m19:46:57.223318 [info ] [MainThread]:   sslrootcert: None
+[0m19:46:57.225541 [info ] [MainThread]:   application_name: dbt
+[0m19:46:57.227793 [info ] [MainThread]:   retries: 1
+[0m19:46:57.230733 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m19:46:57.610535 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m19:46:57.690953 [debug] [MainThread]: Using postgres connection "debug"
+[0m19:46:57.692072 [debug] [MainThread]: On debug: select 1 as id
+[0m19:46:57.693076 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:46:57.752858 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[0m19:46:57.807446 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m19:46:57.808493 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m19:46:57.809504 [debug] [MainThread]: On debug: No close available on handle
+[0m19:46:57.810548 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m19:46:57.811680 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:46:57.812635 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/dura/Codes/ethiopian-medical-data-warehouse/dbt_project.yml> not found
+
+[0m19:46:57.813686 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:46:57.816091 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 1.2609215, "process_in_blocks": "3696", "process_kernel_time": 0.567463, "process_mem_max_rss": "100924", "process_out_blocks": "24", "process_user_time": 4.92865}
+[0m19:46:57.817596 [debug] [MainThread]: Command `dbt debug` failed at 19:46:57.817174 after 1.26 seconds
+[0m19:46:57.819007 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:46:57.820245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7645817e0c20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76457e738ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76457fcfebd0>]}
+[0m19:46:57.822136 [debug] [MainThread]: Flushing usage events
+[0m19:46:58.782701 [debug] [MainThread]: An error was encountered while trying to flush usage events
