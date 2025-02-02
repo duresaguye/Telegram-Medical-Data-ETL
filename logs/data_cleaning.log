@@ -5,3 +5,86 @@
 2025-01-31 20:16:39,612 - INFO - ✅ Missing values filled.
 2025-01-31 20:16:39,646 - INFO - ✅ Data cleaning completed successfully.
 2025-01-31 20:16:39,673 - INFO - ✅ Cleaned data saved successfully to 'cleaned_data.csv'.
+2025-01-31 21:24:38,526 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-01-31 21:24:38,642 - INFO - ✅ Duplicates removed from dataset.
+2025-01-31 21:24:38,839 - INFO - ✅ Date column formatted to datetime.
+2025-01-31 21:24:38,855 - INFO - ✅ Missing values filled.
+2025-01-31 21:24:38,931 - INFO - ✅ Text columns standardized.
+2025-01-31 21:24:39,064 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-31 21:24:39,119 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-31 21:24:39,137 - INFO - ✅ Data cleaning completed successfully.
+2025-01-31 21:24:39,173 - INFO - ✅ Cleaned data saved successfully to 'cleaned_data.csv'.
+2025-01-31 21:24:39,519 - INFO - ✅ Database connection established successfully.
+2025-01-31 21:24:39,563 - ERROR - ❌ Error storing data in database: (psycopg2.OperationalError) could not translate host name "your_db_host" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-02 19:12:46,892 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-02-02 19:12:46,928 - INFO - ✅ Duplicates removed from dataset.
+2025-02-02 19:12:46,992 - INFO - ✅ Date column formatted to datetime.
+2025-02-02 19:12:47,012 - INFO - ✅ Missing values filled.
+2025-02-02 19:12:47,031 - ERROR - ❌ Data cleaning error: name 'clean_text' is not defined
+2025-02-02 19:13:04,136 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-02-02 19:13:04,148 - INFO - ✅ Duplicates removed from dataset.
+2025-02-02 19:13:04,168 - INFO - ✅ Date column formatted to datetime.
+2025-02-02 19:13:04,186 - INFO - ✅ Missing values filled.
+2025-02-02 19:13:04,201 - ERROR - ❌ Data cleaning error: name 'clean_text' is not defined
+2025-02-02 19:13:30,844 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-02-02 19:13:30,849 - INFO - ✅ Duplicates removed from dataset.
+2025-02-02 19:13:30,863 - INFO - ✅ Date column formatted to datetime.
+2025-02-02 19:13:30,871 - INFO - ✅ Missing values filled.
+2025-02-02 19:13:30,878 - ERROR - ❌ Data cleaning error: name 'clean_text' is not defined
+2025-02-02 19:13:45,323 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-02-02 19:13:45,328 - INFO - ✅ Duplicates removed from dataset.
+2025-02-02 19:13:45,347 - INFO - ✅ Date column formatted to datetime.
+2025-02-02 19:13:45,365 - INFO - ✅ Missing values filled.
+2025-02-02 19:13:45,377 - ERROR - ❌ Data cleaning error: name 'clean_text' is not defined
+2025-02-02 19:14:24,951 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-02-02 19:14:24,962 - INFO - ✅ Duplicates removed from dataset.
+2025-02-02 19:14:24,987 - INFO - ✅ Date column formatted to datetime.
+2025-02-02 19:14:25,008 - INFO - ✅ Missing values filled.
+2025-02-02 19:14:25,028 - INFO - ✅ Text columns standardized.
+2025-02-02 19:14:25,048 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-02-02 19:14:25,072 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-02-02 19:14:25,093 - INFO - ✅ Data cleaning completed successfully.
+2025-02-02 19:14:25,116 - INFO - ✅ Cleaned data saved successfully to 'cleaned_data.csv'.
+2025-02-02 19:14:25,122 - ERROR - ❌ Error establishing database connection: invalid literal for int() with base 10: '5432  # Default PostgreSQL port'
+2025-02-02 19:15:03,350 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-02-02 19:15:03,364 - INFO - ✅ Duplicates removed from dataset.
+2025-02-02 19:15:03,385 - INFO - ✅ Date column formatted to datetime.
+2025-02-02 19:15:03,400 - INFO - ✅ Missing values filled.
+2025-02-02 19:15:03,426 - INFO - ✅ Text columns standardized.
+2025-02-02 19:15:03,518 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-02-02 19:15:03,619 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-02-02 19:15:03,639 - INFO - ✅ Data cleaning completed successfully.
+2025-02-02 19:15:03,708 - INFO - ✅ Cleaned data saved successfully to 'cleaned_data.csv'.
+2025-02-02 19:15:03,720 - ERROR - ❌ Error establishing database connection: invalid literal for int() with base 10: '5432  # Default PostgreSQL port'
+2025-02-02 19:16:28,946 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-02-02 19:16:28,951 - INFO - ✅ Duplicates removed from dataset.
+2025-02-02 19:16:28,980 - INFO - ✅ Date column formatted to datetime.
+2025-02-02 19:16:28,995 - INFO - ✅ Missing values filled.
+2025-02-02 19:16:29,018 - INFO - ✅ Text columns standardized.
+2025-02-02 19:16:29,038 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-02-02 19:16:29,068 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-02-02 19:16:29,077 - INFO - ✅ Data cleaning completed successfully.
+2025-02-02 19:16:29,101 - INFO - ✅ Cleaned data saved successfully to 'cleaned_data.csv'.
+2025-02-02 19:16:29,104 - ERROR - ❌ Error establishing database connection: invalid literal for int() with base 10: '5432  # Default PostgreSQL port'
+2025-02-02 19:17:27,566 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-02-02 19:17:27,572 - INFO - ✅ Duplicates removed from dataset.
+2025-02-02 19:17:27,597 - INFO - ✅ Date column formatted to datetime.
+2025-02-02 19:17:27,619 - INFO - ✅ Missing values filled.
+2025-02-02 19:17:27,653 - INFO - ✅ Text columns standardized.
+2025-02-02 19:17:27,683 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-02-02 19:17:27,733 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-02-02 19:17:27,747 - INFO - ✅ Data cleaning completed successfully.
+2025-02-02 19:17:27,806 - INFO - ✅ Cleaned data saved successfully to 'cleaned_data.csv'.
+2025-02-02 19:17:27,816 - ERROR - ❌ Error establishing database connection: invalid literal for int() with base 10: '5432  # Default PostgreSQL port'
+2025-02-02 19:19:38,915 - INFO - ✅ CSV file '../merged_data.csv' loaded successfully.
+2025-02-02 19:19:38,934 - INFO - ✅ Duplicates removed from dataset.
+2025-02-02 19:19:39,001 - INFO - ✅ Date column formatted to datetime.
+2025-02-02 19:19:39,053 - INFO - ✅ Missing values filled.
+2025-02-02 19:19:39,081 - INFO - ✅ Text columns standardized.
+2025-02-02 19:19:39,101 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-02-02 19:19:39,133 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-02-02 19:19:39,143 - INFO - ✅ Data cleaning completed successfully.
+2025-02-02 19:19:39,164 - INFO - ✅ Cleaned data saved successfully to 'cleaned_data.csv'.
+2025-02-02 19:19:39,184 - ERROR - ❌ Error establishing database connection: invalid literal for int() with base 10: '5432  # Default PostgreSQL port'
