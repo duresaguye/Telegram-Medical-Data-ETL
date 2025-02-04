@@ -28,7 +28,7 @@ Kara Solutions, a data science company, requires a **centralized data warehouse*
 - **DBT** (Data Transformation)  
 - **FastAPI** (API Development)  
 - **SQLAlchemy** (Database ORM)  
-- **Docker** (Containerization)  
+
 
 ---
 
@@ -148,13 +148,8 @@ python data_scraping/scraper.py
 uvicorn api.main:app --reload
 ```
 5️⃣ Open API docs at:  
-[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  
+
+[http://127.0.0.1:8000/detections] (http://127.0.0.1:8000/detections)
 
 ---
 
-## 🔥 Conclusion  
-This project **automates data collection, cleaning, and analysis** of Ethiopian medical businesses, leveraging **AI-powered object detection** and **FastAPI for data access**. It serves as a **foundation for real-world data engineering applications** in business analytics and decision-making.  
-
-📩 **For inquiries, contact:** [GitHub Issues](https://github.com/duresaguye/Telegram-Medical-Data-ETL/issues)  
-
-🚀 **Happy Coding!**
