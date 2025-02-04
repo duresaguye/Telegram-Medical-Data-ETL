@@ -147,9 +147,9 @@ python data_scraping/scraper.py
 ```bash
 uvicorn api.main:app --reload
 ```
-5️⃣ Open API docs at:  
-
-[http://127.0.0.1:8000/detections] (http://127.0.0.1:8000/detections)
+5️⃣ Open API  at:  
+[
+[http://127.0.0.1:8000/detections] (http://127.0.0.1:8000/detections)](http://127.0.0.1:8000/detections)
 
 ---
 
