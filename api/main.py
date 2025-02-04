@@ -8,8 +8,10 @@ from schemas import DetectionSchema
 # Initialize FastAPI
 app = FastAPI()
 
-# Create database tables
+# Create database tables if they don't exist
 models.Base.metadata.create_all(bind=engine)
+
+print("Tables created successfully!")
 
 # API to get all detection results
 @app.get("/detections", response_model=list[DetectionSchema])
