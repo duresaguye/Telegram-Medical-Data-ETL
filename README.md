@@ -148,8 +148,9 @@ python data_scraping/scraper.py
 uvicorn api.main:app --reload
 ```
 5️⃣ Open API  at:  
-[
-[http://127.0.0.1:8000/detections] (http://127.0.0.1:8000/detections)](http://127.0.0.1:8000/detections)
+ ```
+http://127.0.0.1:8000/detections
+```
 
 ---
 
